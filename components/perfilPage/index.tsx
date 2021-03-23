@@ -9,7 +9,7 @@ interface Props {
 }
 // archi = Princípio
 
-const GeneralPage: React.FC<Props> = ({ children, title, description }) => {
+const PerfilPage: React.FC<Props> = ({ children, title, description }) => {
   return (
     <div className={styles.container}>
       <Head>
@@ -37,4 +37,4 @@ const GeneralPage: React.FC<Props> = ({ children, title, description }) => {
   );
 };
 
-export default GeneralPage;
+export default PerfilPage;
