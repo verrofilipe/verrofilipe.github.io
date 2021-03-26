@@ -30,7 +30,7 @@ const GeneralPage: React.FC<Props> = ({ children, title, description }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" Filipe Verrone de Lima"}
+          Developed by{" Filipe Verrone de Lima"}
         </a>
       </footer>
     </div>
