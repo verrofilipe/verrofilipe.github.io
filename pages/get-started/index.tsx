@@ -7,8 +7,8 @@ import GenericCard from "../../components/genericCard";
 const mappingCards = (cards) => {
   return (
     <>
-      {cards.map((item) => (
-        <Grid container>
+      {cards.map((item, index) => (
+        <Grid container key={index}>
           <GenericCard {...item} />
         </Grid>
       ))}
